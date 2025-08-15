@@ -8,10 +8,11 @@ import router from './routes/router';
 function App() {
   return (
     <>
-      <ThemeProvider theme={theme}>
+      {/* <ThemeProvider theme={theme}>
         <GlobalStyle />
         <RouterProvider router={router}/>
-      </ThemeProvider>
+      </ThemeProvider> */}
+      
     </>
   );
 }

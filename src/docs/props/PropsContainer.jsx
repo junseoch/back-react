@@ -2,6 +2,7 @@ import React from 'react';
 import PropsComponent from './PropsComponent';
 import PropsComponent02 from './PropsComponent02';
 import PropsComponent03 from './PropsComponent03';
+import PropsComponentSimple from './PropsComponentSimple';
 
 const PropsContainer = () => {
 
@@ -43,6 +44,9 @@ const PropsContainer = () => {
     
     {/* 여기는 넘길 때 */}
       <PropsComponent03 printName={printName}/>
+
+      <h2>Props 간단 예시</h2>
+      <PropsComponentSimple message="안녕하세요 😀" printMessage={printMessage} />
     
     </div>
   );
