@@ -1,4 +1,4 @@
-import React from 'react';
+
 import PassComponent from './PassComponent';
 import NotPassComponent from './NotPassComponent';
 import LuckyComponent from './LuckyComponent';
@@ -8,6 +8,37 @@ import UnLuckyComponent from './UnLuckyComponent';
 // 19세 이상 초과 성인이면 "입장 가능"
 // 성인이 아니면 "입장 불가"
 // 성인과 관계없이 age가 짝수면 "당첨" 출력
+
+
+import React from 'react';
+
+// const Jsx05 = () => {
+
+//   const age = 20
+//   const isAdult = age > 19
+//   const isEven = age % 2 === 0
+
+//   const enterComponent = <p>"입장 가능"</p>
+//   const NotEnterComponent = <p>"입장 불가</p>
+  
+//   const Ok = isAdult ? enterComponent : NotEnterComponent
+
+//   const won = "당첨"
+//   const lose = "당첨 실패"
+
+
+
+//   return (
+//     <div>
+//       {isAdult ? enterComponent : NotEnterComponent}
+//       {isEven ? won : lose}
+//     </div>
+//   );
+// };
+
+// export default Jsx05;
+
+
 
 const Jsx05 = () => {
 

@@ -12,7 +12,8 @@ const Name = () => {
   return (
     <div>
       <p>{result}</p>
-      <input type="text" onChange={onChangeResult} /> 
+      {/* 태그에 이벤트를 직접적으로 추가 */}
+      <input type="text" onChange={onChangeResult} />  
     </div>
   );
 };

@@ -13,16 +13,11 @@ const Jsx04 = () => {
   const login = true
   const guest = false
 
-  return (
+  return (  // if문 사용X
     <div> 
-     {login && guest && (
-      <p>비회원 로그인입니다</p>
-     )} 
-     {login ? (
-      <>{name}님 환영합니다</>
-     ) : (
-      <>로그인 실패!</>
-     )}
+      {/* login, guest 둘 다 true일 때 뒤에 문장 실행! */}
+     {login && guest && (<p>비회원 로그인입니다</p>)} 
+     {login ? (<>{name}님 환영합니다</>) : (<>로그인 실패!</>)}
     </div>
   );
 };

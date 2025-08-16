@@ -27,7 +27,8 @@ const PropsContainer = () => {
   return (
     <div>
       {/* 값만 전달 */}
-      <PropsComponent name = {name} age = {age}/>
+      {/* key=value 형태로 컴포넌트에게 전달 */}
+      <PropsComponent name={name} age={age}/>
     
 
       {/* 요소 전체를 전달 

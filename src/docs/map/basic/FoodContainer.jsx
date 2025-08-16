@@ -27,6 +27,8 @@ const FoodContainer = () => {
 
   ]
 
+    foods.map((food) => <li>{food.name}</li>)
+
   // li가 반복되고 있음
 
   // 인덱스 값으로 특정함
@@ -42,7 +44,7 @@ const FoodContainer = () => {
 
   // 리턴을 해줘야함
   // foods.map((food, i) => <Food key={i} food = {food}/>) 전체가 값!
-  const foodList = foods.map((food, i) => <Food key={i} food = {food}/>)
+  // const foodList = foods.map((food, i) => <Food key={i} food = {food}/>)
                               // 반복문이 처리되었을 때 바로 실행해야되기 때문에 콜백함수
                               // 익명함수
 
