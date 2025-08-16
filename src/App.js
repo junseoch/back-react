@@ -8,6 +8,8 @@ import Jsx05 from './docs/step/Jsx05';
 import ContainerPracitce from './docs/props/ContainerPracitce';
 import ComponentPractice03 from './docs/props/ComponentPractice03';
 import CountPractice from './docs/state/CountPractice';
+import PracticeFoodContainer from './docs/map/basic/PracticeFoodContainer';
+import AdContainer from './docs/map/basic/AdContainer';
 
 function App() {
   return (
@@ -17,7 +19,7 @@ function App() {
         <RouterProvider router={router}/>
       </ThemeProvider> */}
 
-      <CountPractice/>
+      <AdContainer/>
 
     </>
   );

@@ -1,4 +1,5 @@
 import React from 'react';
+import PracticeFood from './PracticeFood';
 
 const PracticeFoodContainer = () => {
 
@@ -24,13 +25,13 @@ const PracticeFoodContainer = () => {
     }
 
   ]
-
-  foods.map((food) => <li>{food.name}</li>)
+// <li key={i}>{food.name}</li>
+  const foodList = foods.map((food,i) => <PracticeFood key={i} food={food}/>)
 
 
   return (
     <div>
-      
+      {foodList}
     </div>
   );
 };
